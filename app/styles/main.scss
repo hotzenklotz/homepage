@@ -1,0 +1,80 @@
+@import "compass_twitter_bootstrap";
+
+.tile-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tile-grid [class*="span"] {
+  background-size: cover;
+  background-color: #eee;
+
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+
+  min-height: 40px;
+  line-height: 40px;
+
+  -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+     -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+       -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+          transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+}
+
+.span4 {
+  height: 300px;
+}
+
+.span6 {
+  height: 460px;
+}
+
+.span8 {
+  height: 620px;
+}
+
+
+.background-text {
+  z-index: -1;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+  color: #eee;
+  text-shadow: 0px 1px 1px #4d4d4d;
+  // color: #222;
+}
+
+#a {
+  background-color: #858585;
+  margin-top: 160px;
+}
+
+#b {
+  background-image: url("../images/portrait.jpg");
+  margin-top: 160px;
+}
+
+#c {
+  background-image: url("../images/octocat.png");
+}
+
+#d {
+  background-color: #858585;
+}
+
+#a.active {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+#b.active {
+  margin-top: 0px;
+}
+#c.active {
+  margin-left: 20px;
+}
