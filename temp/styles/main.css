@@ -6172,52 +6172,74 @@ a.label:hover, a.badge:hover {
   border-radius: 3px;
   min-height: 40px;
   line-height: 40px;
-}
-
-/* line 19, ../../app/styles/main.scss */
-.span4 {
-  height: 300px;
-}
-
-/* line 23, ../../app/styles/main.scss */
-.span6 {
-  height: 460px;
-}
-
-/* line 27, ../../app/styles/main.scss */
-.span8 {
-  height: 620px;
-}
-
-/* line 31, ../../app/styles/main.scss */
-.row div {
   -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
   -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
   -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
   transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
 }
 
-/* line 38, ../../app/styles/main.scss */
-#main-container {
-  margin-top: 50px;
+/* line 25, ../../app/styles/main.scss */
+.span4 {
+  height: 300px;
 }
 
-/* line 42, ../../app/styles/main.scss */
+/* line 29, ../../app/styles/main.scss */
+.span6 {
+  height: 460px;
+}
+
+/* line 33, ../../app/styles/main.scss */
+.span8 {
+  height: 620px;
+}
+
+/* line 38, ../../app/styles/main.scss */
+.background-text {
+  z-index: -1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #eee;
+  text-shadow: 0px 1px 1px #4d4d4d;
+}
+
+/* line 53, ../../app/styles/main.scss */
 #a {
   background-color: #858585;
+  margin-top: 160px;
 }
 
-/* line 46, ../../app/styles/main.scss */
+/* line 58, ../../app/styles/main.scss */
 #b {
   background-image: url("../images/portrait.jpg");
+  margin-top: 160px;
 }
 
-/* line 50, ../../app/styles/main.scss */
+/* line 63, ../../app/styles/main.scss */
 #c {
   background-image: url("../images/octocat.png");
 }
 
-/* line 54, ../../app/styles/main.scss */
+/* line 67, ../../app/styles/main.scss */
 #d {
   background-color: #858585;
+}
+
+/* line 71, ../../app/styles/main.scss */
+#a.active {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+/* line 75, ../../app/styles/main.scss */
+#b.active {
+  margin-top: 0px;
+}
+
+/* line 78, ../../app/styles/main.scss */
+#c.active {
+  margin-left: 20px;
 }

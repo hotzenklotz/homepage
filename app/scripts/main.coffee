@@ -24,19 +24,22 @@ class Main
     { oldSelection } = this
     tile = $(tile)
 
-    #shrink the previously selected tile
+    # shrink the previously selected tile
     if oldSelection?
       oldTile = $("##{oldSelection}")
       oldTile.removeClass("span6")
+      oldTile.removeClass("active")
       oldTile.addClass("span4")
 
-      #toggle
+      # toggle selection if current one
       if oldSelection == index
         @oldSelection = null
         return
 
+    # increase width
     tile.removeClass("span4")
     tile.addClass("span6")
+    tile.addClass("active")
 
     @oldSelection = index
 

@@ -35,6 +35,7 @@
       if (oldSelection != null) {
         oldTile = $("#" + oldSelection);
         oldTile.removeClass("span6");
+        oldTile.removeClass("active");
         oldTile.addClass("span4");
         if (oldSelection === index) {
           this.oldSelection = null;
@@ -43,6 +44,7 @@
       }
       tile.removeClass("span4");
       tile.addClass("span6");
+      tile.addClass("active");
       return this.oldSelection = index;
     };
 
