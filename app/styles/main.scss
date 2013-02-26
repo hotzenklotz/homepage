@@ -1,0 +1,56 @@
+@import "compass_twitter_bootstrap";
+
+.tile-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tile-grid [class*="span"] {
+  background-size: cover;
+  background-color: #eee;
+
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
+
+.span4 {
+  height: 300px;
+}
+
+.span6 {
+  height: 460px;
+}
+
+.span8 {
+  height: 620px;
+}
+
+.row div {
+  -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+     -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+       -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+          transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+}
+
+#main-container {
+  margin-top: 50px;
+}
+
+#a {
+  background-color: #858585
+}
+
+#b {
+  background-image: url("../images/portrait.jpg");
+}
+
+#c {
+  background-image: url("../images/octocat.png");
+}
+
+#d {
+  background-color: #858585
+}
