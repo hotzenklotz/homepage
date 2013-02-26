@@ -6,7 +6,6 @@
 }
 .tile-grid [class*="span"] {
   background-size: cover;
-  background-color: #eee;
 
   text-align: center;
   -webkit-border-radius: 3px;
@@ -45,13 +44,23 @@
         -ms-user-select: none;
             user-select: none;
 
-  color: #eee;
-  text-shadow: 0px 1px 1px #4d4d4d;
-  // color: #222;
+  font-size: 80px;
+  line-height: 100px;
+
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+
+  p {
+    margin-top: 100px;
+  }
 }
 
 #a {
-  background-color: #858585;
+  background-color: rgba(233,233,233,1.0);
   margin-top: 160px;
 }
 
@@ -62,19 +71,29 @@
 
 #c {
   background-image: url("../images/octocat.png");
+  background-color: rgba(133,133,133,1.0);
+
 }
 
 #d {
-  background-color: #858585;
+  background-color: rgba(233,233,233,1.0);
 }
 
 #a.active {
   margin-left: 20px;
   margin-top: 0px;
+  .background-text {
+    display:none;
+  }
 }
 #b.active {
   margin-top: 0px;
 }
 #c.active {
   margin-left: 20px;
+}
+#d.active {
+  .background-text {
+    display: none;
+  }
 }
