@@ -6,9 +6,7 @@
 }
 .tile-grid [class*="span"] {
   background-size: cover;
-  background-color: #eee;
 
-  text-align: center;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -22,18 +20,17 @@
           transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
 }
 
-.span4 {
+.tile.span4 {
   height: 300px;
 }
 
-.span6 {
+.tile.span6 {
   height: 460px;
 }
 
-.span8 {
-  height: 620px;
+.content {
+  display: none;
 }
-
 
 .background-text {
   z-index: -1;
@@ -45,13 +42,24 @@
         -ms-user-select: none;
             user-select: none;
 
-  color: #eee;
-  text-shadow: 0px 1px 1px #4d4d4d;
-  // color: #222;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+
+  p {
+    margin-top: 80px;
+  }
 }
 
 #a {
-  background-color: #858585;
+  background-color: rgba(233,233,233,1.0);
   margin-top: 160px;
 }
 
@@ -62,19 +70,41 @@
 
 #c {
   background-image: url("../images/octocat.png");
+  background-color: rgba(133,133,133,1.0);
+
 }
 
 #d {
-  background-color: #858585;
+  background-color: rgba(233,233,233,1.0);
 }
 
 #a.active {
   margin-left: 20px;
   margin-top: 0px;
+  .background-text {
+    display:none;
+  }
+  .content {
+    display: block;
+  }
 }
 #b.active {
   margin-top: 0px;
+  .content {
+    display: block;
+  }
 }
 #c.active {
   margin-left: 20px;
+  .content {
+    display: block;
+  }
+}
+#d.active {
+  .background-text {
+    display: none;
+  }
+  .content {
+    display:block;
+  }
 }
