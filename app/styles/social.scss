@@ -1,0 +1,20 @@
+.social{
+
+  position: relative;
+  height: 460px;
+
+  a {
+    margin: 50px;
+    text-decoration: none;
+    color: rgba(243,243,243,1.0);
+  }
+
+  a:hover {
+    color: rgba(170,170,170,1.0);
+  }
+
+  .row {
+    position: absolute;
+    bottom: 0px;
+  }
+}

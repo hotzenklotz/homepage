@@ -1,0 +1,110 @@
+.tile-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tile-grid [class*="span"] {
+  background-size: cover;
+
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+
+  min-height: 40px;
+  line-height: 40px;
+
+  -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+     -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+       -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+          transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease;
+}
+
+.tile.span4 {
+  height: 300px;
+}
+
+.tile.span6 {
+  height: 460px;
+}
+
+.content {
+  display: none;
+}
+
+.background-text {
+  z-index: -1;
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+
+  p {
+    margin-top: 80px;
+  }
+}
+
+#a {
+  background-color: rgba(233,233,233,1.0);
+  margin-top: 160px;
+}
+
+#b {
+  background-image: url("../images/portrait.jpg");
+  margin-top: 160px;
+}
+
+#c {
+  background-image: url("../images/octocat.png");
+  background-color: rgba(133,133,133,1.0);
+
+}
+
+#d {
+  background-color: rgba(233,233,233,1.0);
+}
+
+#a.active {
+  margin-left: 20px;
+  margin-top: 0px;
+  .background-text {
+    display:none;
+  }
+}
+
+#b.active {
+  margin-top: 0px;
+}
+#c.active {
+  margin-left: 20px;
+}
+
+#d.active {
+  .background-text {
+    display: none;
+  }
+}
+#a.transitionend .content {
+  display: block;
+}
+#b.transitionend .content {
+  display: block;
+}
+#c.transitionend .content {
+  display: block;
+}
+#d.transitionend .content {
+  display: block;
+}

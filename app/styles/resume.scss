@@ -21,10 +21,17 @@
     margin-top: 15px;
   }
 
-  article {
-    border-bottom: 1px solid #dddddd;
+  hr {
+    margin: 0px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgba(143,143,143,1.0);
+  }
 }
 
 .welcome {
