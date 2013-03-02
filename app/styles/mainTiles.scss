@@ -44,12 +44,14 @@
   line-height: 100px;
   text-align: center;
 
-  background-color: #666666;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+  // emboss effect (works in webkit only)
+  // background-color: #666666;
+  // -webkit-background-clip: text;
+  // background-clip: text;
+  // color: transparent;
+  // text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+  color: rgba(143,143,143,1.0);
+  text-shadow: rgba(50,50,50,0.8) 1px 1px 1px;
 }
 .background-text.about-text {
   margin-top: 60px;
