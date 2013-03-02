@@ -1,0 +1,58 @@
+@media (max-width: 500px) {
+
+
+  // GRID & CONTAINERS
+  // -----------------
+  // Remove width from containers
+  .offset2 {
+    margin-left: 0px;
+  }
+
+  .span4, .span6 {
+    width:100%;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .row [class*="span"] {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  #a, #b {
+    margin-top: 15px;
+  }
+
+  .tile-grid {
+    margin-bottom: 0px;
+  }
+
+  #a.active, #c.active {
+    margin-left: 0;
+  }
+
+  .resume [class*="span"] {
+    margin-left: 15px;
+  }
+  .resume [class*="span"]:first-child {
+    margin-left: 0px;
+  }
+}
+
+
+
+// UP TO LANDSCAPE PHONE
+// ---------------------
+
+@media (max-width: 480px) {
+
+
+
+}

@@ -1,0 +1,53 @@
+@media (max-width: 500px) {
+  /* line 7, ../../app/styles/responsive.scss */
+  .offset2 {
+    margin-left: 0px;
+  }
+
+  /* line 11, ../../app/styles/responsive.scss */
+  .span4, .span6 {
+    width: 100%;
+  }
+
+  /* line 15, ../../app/styles/responsive.scss */
+  .row {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  /* line 20, ../../app/styles/responsive.scss */
+  .row [class*="span"] {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  /* line 25, ../../app/styles/responsive.scss */
+  .container {
+    width: auto;
+  }
+
+  /* line 29, ../../app/styles/responsive.scss */
+  #a, #b {
+    margin-top: 15px;
+  }
+
+  /* line 33, ../../app/styles/responsive.scss */
+  .tile-grid {
+    margin-bottom: 0px;
+  }
+
+  /* line 37, ../../app/styles/responsive.scss */
+  #a.active, #c.active {
+    margin-left: 0;
+  }
+
+  /* line 41, ../../app/styles/responsive.scss */
+  .resume [class*="span"] {
+    margin-left: 15px;
+  }
+
+  /* line 44, ../../app/styles/responsive.scss */
+  .resume [class*="span"]:first-child {
+    margin-left: 0px;
+  }
+}

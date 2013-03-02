@@ -1,0 +1,52 @@
+.resume {
+
+  text-align: left;
+  position: relative;
+  color: #333333;
+  background-color: inherit;
+
+  ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  a {
+    color: #333333;
+  }
+
+  h3 {
+    margin-left: 10px;
+  }
+
+  h4{
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    margin: 0px;
+  }
+
+  hr {
+    margin: 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgba(143,143,143,1.0);
+  }
+
+  .language {
+    margin-top: 5px;
+  }
+}
+
+.resume .download-resume {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+  }

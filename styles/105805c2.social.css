@@ -1,0 +1,24 @@
+/* line 1, ../../app/styles/social.scss */
+.social {
+  position: relative;
+  height: 460px;
+}
+/* line 6, ../../app/styles/social.scss */
+.social a {
+  margin: 50px;
+  text-decoration: none;
+  color: #f3f3f3;
+}
+/* line 12, ../../app/styles/social.scss */
+.social a:hover {
+  color: #aaaaaa;
+}
+/* line 16, ../../app/styles/social.scss */
+.social .row {
+  position: absolute;
+  bottom: 0px;
+}
+/* line 22, ../../app/styles/social.scss */
+.social .scalableminds:hover img {
+  content: url("../images/scalableminds_hover.png");
+}

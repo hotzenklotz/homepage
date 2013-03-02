@@ -1,0 +1,53 @@
+/* line 1, ../../app/styles/resume.scss */
+.resume {
+  text-align: left;
+  position: relative;
+  color: #333333;
+  background-color: inherit;
+}
+/* line 8, ../../app/styles/resume.scss */
+.resume ul {
+  list-style: none;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+/* line 14, ../../app/styles/resume.scss */
+.resume a {
+  color: #333333;
+}
+/* line 18, ../../app/styles/resume.scss */
+.resume h3 {
+  margin-left: 10px;
+}
+/* line 22, ../../app/styles/resume.scss */
+.resume h4 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+/* line 27, ../../app/styles/resume.scss */
+.resume p {
+  margin: 0px;
+}
+/* line 31, ../../app/styles/resume.scss */
+.resume hr {
+  margin: 0px;
+}
+/* line 35, ../../app/styles/resume.scss */
+.resume a {
+  text-decoration: none;
+}
+/* line 39, ../../app/styles/resume.scss */
+.resume a:hover {
+  color: #8f8f8f;
+}
+/* line 43, ../../app/styles/resume.scss */
+.resume .language {
+  margin-top: 5px;
+}
+
+/* line 48, ../../app/styles/resume.scss */
+.resume .download-resume {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
