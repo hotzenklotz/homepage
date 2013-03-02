@@ -17,4 +17,10 @@
     position: absolute;
     bottom: 0px;
   }
+
+  .scalableminds:hover {
+    img {
+      content: url("../images/scalableminds_hover.png")
+    }
+  }
 }
