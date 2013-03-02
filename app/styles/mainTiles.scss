@@ -50,10 +50,12 @@
   background-clip: text;
   color: transparent;
   text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
-
-  p {
-    margin-top: 80px;
-  }
+}
+.background-text.about-text {
+  margin-top: 60px;
+}
+.background-text.CV {
+  margin-top: 100px;
 }
 
 #a {

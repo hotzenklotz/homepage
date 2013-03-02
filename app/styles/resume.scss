@@ -6,7 +6,8 @@
 
   ul {
     list-style: none;
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
   }
 
   a {
@@ -17,8 +18,13 @@
     margin-left: 10px;
   }
 
-  h4, h5 {
+  h4{
     margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    margin: 0px;
   }
 
   hr {
@@ -32,19 +38,10 @@
   a:hover {
     color: rgba(143,143,143,1.0);
   }
-}
 
-.welcome {
-  font-size: 24px;
-  text-indent: 0px;
-  line-height: 30px;
-}
-.auth {
-  text-align: right;
-  font-size: 16px;
-}
-.skills {
-  border: 0;
+  .language {
+    margin-top: 5px;
+  }
 }
 
 .resume .download-resume {
