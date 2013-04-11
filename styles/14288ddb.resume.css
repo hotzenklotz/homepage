@@ -25,29 +25,37 @@
   margin-bottom: 0px;
 }
 /* line 27, ../../app/styles/resume.scss */
+.resume h5 {
+  margin: 10px 0 0 0;
+}
+/* line 31, ../../app/styles/resume.scss */
 .resume p {
   margin: 0px;
 }
-/* line 31, ../../app/styles/resume.scss */
+/* line 35, ../../app/styles/resume.scss */
 .resume hr {
   margin: 0px;
 }
-/* line 35, ../../app/styles/resume.scss */
+/* line 39, ../../app/styles/resume.scss */
 .resume a {
   text-decoration: none;
 }
-/* line 39, ../../app/styles/resume.scss */
+/* line 43, ../../app/styles/resume.scss */
 .resume a:hover {
   color: #8f8f8f;
 }
-/* line 43, ../../app/styles/resume.scss */
+/* line 47, ../../app/styles/resume.scss */
 .resume .language {
   margin-top: 5px;
 }
+/* line 51, ../../app/styles/resume.scss */
+.resume .work p {
+  line-height: 25px;
+}
 
-/* line 48, ../../app/styles/resume.scss */
+/* line 56, ../../app/styles/resume.scss */
 .resume .download-resume {
   position: absolute;
   right: 20px;
-  bottom: 0px;
+  bottom: -8px;
 }
